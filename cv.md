@@ -33,7 +33,7 @@ function filter_list(l) {
 ```
 ***
 ## Experience
-My first work experience was creating a CV [Link](Link)
+My first work experience was creating a CV [Link](https://dimtim1992.github.io/rsschool-cv/cv)
 ***
 ## Courses
 HTML and CSS Tutorials on the [code-basics.com](https://ru.code-basics.com/) 
