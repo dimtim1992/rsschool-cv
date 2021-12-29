@@ -1,5 +1,4 @@
 # Dzmitry Tsimoshchanka
-![Photo](Avatar.jpg)
 ***
 ## Contact information
 * [LinkedIn](https://www.linkedin.com/in/dzmitry-tsimoshchanka-b80a3a1bb/)
