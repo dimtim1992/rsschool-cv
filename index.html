@@ -12,63 +12,64 @@
     <header>
         <div class="container">
             <nav class="nav">
-                <ul class="nav-list">
+                <ul class="list nav-list">
                     <li class="nav-item">
-                        <a href="#contacts" class="nav-link">Contacts</a>
+                        <a href="#contacts" class="link nav-link">Contacts</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#summary" class="nav-link">Summary</a>
+                        <a href="#summary" class="link nav-link">Summary</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#skills" class="nav-link">Skills</a>
+                        <a href="#skills" class="link nav-link">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#code" class="nav-link">Code</a>
+                        <a href="#code" class="link nav-link">Code</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#courses" class="nav-link">Courses</a>
+                        <a href="#courses" class="link nav-link">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#projects" class="nav-link">Projects</a>
+                        <a href="#projects" class="link nav-link">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#english" class="nav-link">English</a>
+                        <a href="#english" class="link nav-link">English</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <div class="container">
-            <section class="section" id="profile">
-                <h1 class="section-title">Dzmitry Tsimoshchanka</h1>
+        <div class="container main-container">
+            <section class="section section-profile" id="profile">
+                <img src="/rsschool-cv/assets/img/Avatar.jpg" alt="Avatar" class="avatar">
+                <h1 class="title profile-title">Dzmitry Tsimoshchanka</h1>
             </section>
             <section class="section" id="contacts">
-                <h2 class="section-title">Contacts</h2>
-                <ul class="contacts-list">
+                <h2 class=" title contacts-title">Contacts</h2>
+                <ul class="list contacts-list">
                     <li class="contacts-item">
-                        <a href="https://www.linkedin.com/in/dzmitry-tsimoshchanka-b80a3a1bb/" class="contacts-link">Linkedin</a>
+                        <a href="https://www.linkedin.com/in/dzmitry-tsimoshchanka-b80a3a1bb/" class="link contacts-link">Linkedin</a>
                     </li>
                     <li class="contacts-item">
-                        <a href="mailto:dimtim7272807@gmail.com" class="contacts-link">Email</a>
+                        <a href="mailto:dimtim7272807@gmail.com" class="link contacts-link">Email</a>
                     </li>
                     <li class="contacts-item">
-                        <a href="https://t.me/DzmitryTsim" class="contacts-link">Telegram</a>
+                        <a href="https://t.me/DzmitryTsim" class="link contacts-link">Telegram</a>
                     </li>
                 </ul>
             </section>
             <section class="section" id="summary">
-                <h2 class="section-title">Summary</h2>
+                <h2 class="title summary-title">Summary</h2>
                 <p class="summary-info">
-                    My mane goal is to get necessary skills for work as a junior frontend developer.
-                    My strengths are learning propensity, systems approach and data analytics.
-                    I also do technical work quickly.
+                    My mane goal is to get necessary skills for work as a junior frontend developer.<br>
+                    My strengths are learning propensity, systems approach and data analytics.<br>
+                    I also do technical work quickly.<br>
                     At the moment I have no real experience in this field but I strive to acquire the necessary skills for this.
                 </p>
             </section>
             <section class="section" id="skills">
-                <h2 class="section-title">Skills</h2>
-                <ul class="skills-list">
+                <h2 class="title skills-title">Skills</h2>
+                <ul class="list skills-list">
                     <li class="skills-item">HTML</li>
                     <li class="skills-item">CSS</li>
                     <li class="skills-item">GitHub</li>
@@ -76,22 +77,49 @@
                 </ul>
             </section>
             <section class="section" id="code">
-                <h2 class="section-title">Code</h2>
-                
+                <h2 class="title code-title">Code</h2>
+                <p class="code-info">
+                    <code>
+                        function filter_list(l) {<br>
+                            return l.filter(function(i) {<br>
+                              return typeof (i) !== "string";<br>
+                            });<br>
+                        }
+                    </code>
+                </p>
             </section>
             <section class="section" id="courses">
-                <h2 class="section-title">Courses</h2>
+                <h2 class="title courses-title">Courses</h2>
+                <ul class="list courses-list">
+                    <li class="courses-item">
+                        <a href="https://training.by/#!/Training/1830?lang=ru" class="link courses-item-link">Frontend-int-May 2018</a>
+                    </li>
+                </ul>
             </section>
             <section class="section" id="projects">
-                <h2 class="section-title">Projects</h2>
+                <h2 class="title projects-title">Projects</h2>
+                <ul class="list projects-list">
+                    <li class="projects-item">
+                        <a href="https://github.com/dimtim1992/rsschool-cv/tree/rsschool-cv-html" class="link projects-item-link">CV</a>
+                    </li>
+                </ul>
             </section>
             <section class="section" id="english">
-                <h2 class="section-title">English</h2>
+                <h2 class="title english-title">English</h2>
+                <p class="english-info">
+                    A2
+                </p>
             </section>
         </div>
     </main>
     <footer>
-        <div class="container"></div>
+        <div class="container footer-container">
+            <ul class="footer-list">
+                <li class="footer-item"><a href="https://github.com/dimtim1992" class="footer-item-link">dimtim1992</a></li>
+                <li class="footer-item">2022</li>
+                <li class="footer-item"><a href="https://rs.school/js/" class="footer-item-link"><img src="/rsschool-cv/assets/img/rs_school_js.svg" alt="logo_RSS"></a></li>
+            </ul>
+        </div>
     </footer>
     
 </body>
